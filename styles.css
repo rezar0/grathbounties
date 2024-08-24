@@ -18,7 +18,7 @@
     width: 150px;
     height: 190px;
     position: relative;
-    background-image: url('/images/bountyPaper.png');
+    background-image: url('images/bountyPaper.png');
     background-size: contain;
 background-repeat: no-repeat;
 }
@@ -38,6 +38,7 @@ background-repeat: no-repeat;
 
 .bounty-description {
     color: #944818;
+    font-family: WBOZ;
     font-weight: bold;
     margin-left: .5rem;
     margin-right: .5rem;
@@ -80,5 +81,5 @@ background-repeat: no-repeat;
 
 @font-face {
     font-family: 'WBOZ'; /*a name to be used later*/
-    src: url('/fonts/The Wild Breath of Zelda.otf'); /*URL to font*/
+    src: url('fonts/The Wild Breath of Zelda.otf'); /*URL to font*/
 }
